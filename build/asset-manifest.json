@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f42853a.css",
+    "main.js": "/static/js/main.dd3de892.js",
+    "static/js/787.e8a9966a.chunk.js": "/static/js/787.e8a9966a.chunk.js",
+    "static/media/cota bus.jpg": "/static/media/cota bus.654cb0f381c87f58c933.jpg",
+    "static/media/2022wintercbuspins.jpg": "/static/media/2022wintercbuspins.88b1868df7e19dc995a1.jpg",
+    "static/media/Ohio+State+Fair+HERO.jpg": "/static/media/Ohio+State+Fair+HERO.48a442e5f95d60324dc3.jpg",
+    "static/media/20171117cosi-0245_orig.jpg": "/static/media/20171117cosi-0245_orig.a5c2c36f288bd7ca0219.jpg",
+    "static/media/taxi.jpg": "/static/media/taxi.885825669ebc039de385.jpg",
+    "static/media/Fotolia_192209375_M.jpg": "/static/media/Fotolia_192209375_M.bf9d88beea9ace2f086c.jpg",
+    "static/media/otherworld-ohio.jpeg": "/static/media/otherworld-ohio.440b12c824b087a62981.jpeg",
+    "static/media/visit-wildlights-at-the.jpg": "/static/media/visit-wildlights-at-the.d5d93ec012809d7052c9.jpg",
+    "static/media/logosmol.jpg": "/static/media/logosmol.197376b60fda5b8d77dd.jpg",
+    "static/media/BLANCHED ALMONDS.jpg": "/static/media/BLANCHED ALMONDS.c3e6b20128996c823593.jpg",
+    "static/media/images.jpg": "/static/media/images.8d8bbf4c60688d559a85.jpg",
+    "static/media/uber.jpg": "/static/media/uber.2e378c0ad9cadc72a59c.jpg",
+    "index.html": "/index.html",
+    "main.3f42853a.css.map": "/static/css/main.3f42853a.css.map",
+    "main.dd3de892.js.map": "/static/js/main.dd3de892.js.map",
+    "787.e8a9966a.chunk.js.map": "/static/js/787.e8a9966a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f42853a.css",
+    "static/js/main.dd3de892.js"
+  ]
+}

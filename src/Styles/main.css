@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    scroll-margin-top: 3rem;
+}
+
+:root {
+    --mainColor: #fff;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #f89880;
+    --textColor: #8acff0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+.Navbar {
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+nav a {
+    margin: 0 2rem;
+    color: var(--textColor);
+    text-decoration: none;
+    font-weight: 700;
+    z-index: 2;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    color: var(--secondaryColor);
+}
+
+.Navbar .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .Navbar .nav-btn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .Navbar nav {
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .Navbar .responsive_nav {
+        transform: none;
+        z-index: 0;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
+
+
+
+.activityContainer {
+    background-color: rgb(109, 109, 109);
+    position: relative;
+    width: 85%;
+    height: auto;
+    margin-top: 28vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.activityContainer p {
+    text-align: center;
+}
+
+.transportationContainer {
+    background-color: rgb(109, 109, 109);
+    position: relative;
+    width: 85%;
+    /* temporary */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.transHead {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.transCard {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.cotaCard {
+    width: 432px;
+}
+
+.uberCard {
+    width: 350px;
+}
+
+.taxiCard {
+    width: 300px;
+}
+
+.trans-card-body {
+    background-color: black;
+}
+
+.foodContainer {
+    background-color: rgb(109, 109, 109);
+    position: relative;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.foodCard {
+    max-width: 540px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.food-card-body {
+    background-color: black;
+}
+
+.headed {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
+.container2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.container3 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.container4 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.container5 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Row {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+}
+
+.card {}
+
+.actCard {
+    margin: 5px;
+    background-color: black;
+    position: relative;
+}
+
+.card img {
+    height: 100%;
+    border-radius: 0.5rem;
+    filter: brightness(0.5);
+}
+
+.card-title,
+.card-text {
+    color: white;
+    text-align: center;
+}
+
+.centerBtn {
+    align-self: center;
+    width: 100%;
+    justify-self: center;
+    display: flex;
+}
+
+.btttn {
+    font-size: 2rem;
+}
+
+.bttn {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn {
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+
+.logoImg {
+    position: sticky;
+    z-index: 4;
+    width: 60px;
+    height: 70px;
+    background-color: (--mainColor)
+}
+
+#button {
+    grid-column: span 2;
+    margin-bottom: 25px;
+}
+
+.centering {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.MenuIMG {
+    Width: 90%;
+}
+
+.ContactContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.White {
+    color: white;
+}
+
+.schedule {
+    margin-top: 100px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.header {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+    margin-top: 60px;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
